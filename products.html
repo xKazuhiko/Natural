@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des produits - Natural</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script defer src="../js/scripts.js"></script>
+    <link rel="icon" href="../images/logo.png" type="image/png">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div>100% NATURAL & 100% VEGAN</div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="../images/logo.png" alt="Natural" />
+            </a>
+        </div>
+        <div class="menu">
+            <a href="index.html">Accueil</a>
+            <a href="products.html">Nos produits</a>
+            <a href="about.html">À propos</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <!-- Liste des produits -->
+    <div class="products-list">
+        <h2>Produits</h2>
+        <div class="filters">
+            <label for="sort">Trier par:</label>
+            <select id="sort">
+                <option value="default">Par défaut</option>
+                <option value="price-asc">Prix croissant</option>
+                <option value="price-desc">Prix décroissant</option>
+            </select>
+        </div>
+        <div class="products" id="productContainer">
+            <!-- Les produits seront injectés ici par JavaScript -->
+        </div>
+    </div>
+
+    <a href="contact.html?id=1" class="special-link">
+        <p>Vous ne trouvez pas le produit que vous désirez ?</p>
+    </a>    
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2024, <a href="index.html">Natural</a> - <a href="contact.html">Coordonnées</a> - <a href="mentions-legales.html">Mentions légales</a></p>
+    </div>
+</body>
+</html>
